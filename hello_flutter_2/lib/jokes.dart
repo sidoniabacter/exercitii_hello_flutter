@@ -11,6 +11,13 @@ import 'package:flutter/painting.dart';
 /// se poate modifica.
 const List<({String text, Color color, String colorReason})> builtInJokes = [
   // Programare
+
+  //1) Adaugă gluma ta. Scrie în jokes.dart un record nou, cu o glumă, o culoare și explicația culorii. Ca să o vezi sigur pe ecran, pune-o temporar prima în listă și înlocuiește în main.dart currentJokeIndex cu 0. Apoi pune codul la loc.
+  // (
+  //   text: "Why the monkey drinks the river? Because it can't find the banana.",
+  //   color: Color(0xFFFFE066),
+  //   colorReason: 'The light-yellow of a banana, the fruit in the punchline.',
+  // ),
   (
     // Textul glumei.
     text: 'Why do programmers prefer dark mode? Because light attracts bugs.',

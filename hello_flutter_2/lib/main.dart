@@ -16,6 +16,8 @@ void main() {
   // Un număr la întâmplare între 0 și numărul de glume minus 1, adică un index valid în listă.
   final currentJokeIndex = randomGen.nextInt(builtInJokes.length);
 
+  //final currentJokeIndex = 0; // pentru a testa gluma adăugată (the one with the monkey and the banana), setează indexul la 0
+
   // Gluma de la acel index; la fiecare pornire a aplicației apare altă glumă.
   final joke = builtInJokes[currentJokeIndex];
 
