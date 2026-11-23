@@ -8,8 +8,12 @@ void main() {
     // ColoredBox umple tot spațiul primit cu o culoare.
     ColoredBox(
       // Culoarea de fundal a ecranului.
-      color: Colors.yellow,
+      // 2) Schimbă fundalul. Înlocuiește Colors.yellow cu Colors.lightBlue sau Colors.green.
+      // Scrie Colors. și așteaptă: VS Code îți arată toate culorile disponibile.
 
+      // color: Colors.yellow,
+      // color: Colors.lightBlue,
+      color: Colors.green,
       // child este widget-ul aflat în interiorul altui widget.
       // Center așază child-ul în mijlocul spațiului disponibil.
       child: Center(
