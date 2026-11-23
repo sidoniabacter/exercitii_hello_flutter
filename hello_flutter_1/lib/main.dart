@@ -47,7 +47,9 @@ void main() {
           // Text afișează un șir de caractere pe ecran.
           child: const Text(
             // Textul afișat.
-            'World Hello',
+            // 1) Schimbă textul. Scrie numele tău în loc de 'World Hello'. Ce se întâmplă dacă textul e prea lung pentru ecran?
+            // dacă textul e prea lung pentru ecran, se va tăia la marginea casetei și nu va fi vizibil complet.
+            'Bacter Sidonia - Salomeea',
 
             // Fără MaterialApp, trebuie să spunem noi direcția textului: de la stânga la dreapta.
             textDirection: TextDirection.ltr,
