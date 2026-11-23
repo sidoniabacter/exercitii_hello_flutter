@@ -77,6 +77,14 @@ void main() {
 
             // TextStyle stabilește cum arată textul.
             style: TextStyle(
+              // 6)Scrie îngroșat. Adaugă în TextStyle parametrul fontWeight: FontWeight.bold. Adaugă și fontStyle: FontStyle.italic.
+
+              //text ingrosat
+              fontWeight: FontWeight.bold,
+
+              //text italic
+              fontStyle: FontStyle.italic,
+
               // Culoarea literelor.
               color: Colors.black,
 
