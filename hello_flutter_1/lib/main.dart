@@ -22,6 +22,7 @@ void main() {
           // BoxDecoration descrie cum arată caseta.
           decoration: BoxDecoration(
             // Culoarea casetei: roșu cu opacitate 20%, prin care se vede fundalul galben.
+
             // 3) Schimbă transparența casetei. Modifică alpha: 0.2 la 0.6, apoi la 1. Ce se întâmplă cu culoarea casetei?
             // culoarea casetei devine mai opacă pe măsură ce crește valoarea alpha, iar la 1 devine complet opacă și nu se mai vede fundalul.
 
@@ -30,6 +31,7 @@ void main() {
             color: Colors.redAccent.withValues(alpha: 1.0),
 
             // Colțuri rotunjite, cu raza de 20 de pixeli.
+
             // 4)Fă colțurile rotunde de tot. Mărește raza din BorderRadius.circular(20) la 60, apoi la 200.
 
             // borderRadius: BorderRadius.circular(20),
@@ -42,14 +44,19 @@ void main() {
             // Umbra casetei; este o listă, pentru că o casetă poate avea mai multe umbre.
             boxShadow: [
               BoxShadow(
+                // 5)Mută și mărește umbra. Schimbă Offset(0, 4) în Offset(10, 10) și blurRadius: 10 în 30. Apoi schimbă culoarea umbrei la Colors.black.withValues(alpha: 0.5).
+
                 // Negru aproape transparent, pentru o umbră discretă.
-                color: Colors.black.withValues(alpha: 0.1),
+                // color: Colors.black.withValues(alpha: 0.1),
+                color: Colors.black.withValues(alpha: 0.5),
 
                 // Cât de difuză este marginea umbrei.
-                blurRadius: 10,
+                // blurRadius: 10,
+                blurRadius: 30,
 
                 // Mută umbra cu 4 pixeli în jos (x = 0, y = 4).
-                offset: const Offset(0, 4),
+                // offset: const Offset(0, 4),
+                offset: const Offset(10, 10),
               ),
             ],
           ),
