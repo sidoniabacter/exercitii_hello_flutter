@@ -543,20 +543,20 @@ const List<({String text, Color color, String colorReason})> builtInJokes = [
   // 3)Adaugă o temă nouă. Scrie un comentariu cu numele temei (de exemplu, // Sport) și adaugă sub el două-trei glume. Rulează flutter test: testul trece în continuare? De ce?
   // Testul trece în continuare pentru că nu am modificat glumele existente, ci doar am adăugat altele noi. Testul verifică doar prezența unei glume specifice, nu contează câte glume sunt în total.
 
-  //Animale
+  //Arta
   (
-    text: 'Why did the chicken join a band? Because it had the drumsticks.',
-    color: Color(0xFFFFD700),
-    colorReason: 'Golden yellow, like a chicken and its drumsticks.',
+    text: 'Why did the painter go to jail? Because he had a brush with the law.',
+    color: Color(0xFFB22222),
+    colorReason: 'Crimson red, like a paintbrush dipped in paint.',
   ),
   (
-    text: 'What do you call a sleeping bull? A bulldozer.',
-    color: Color(0xFF8B0000),
-    colorReason: 'Dark red, like a bull and its strength.',
+    text: 'Why did the sculpture break up with the clay? It found her too moldy.',
+    color: Color(0xFF8B4513),
+    colorReason: 'Saddle brown, like dried clay.',
   ),
   (
-    text: 'Why did the cat sit on the computer? To keep an eye on the mouse.',
-    color: Color(0xFF808080),
-    colorReason: 'Gray, like a typical house cat.',
+    text: 'Why did the art thief’s van break down? Because it was a sketchy vehicle.',
+    color: Color(0xFF708090),
+    colorReason: 'Slate gray, like a sketch on paper.',
   ),
 ];
