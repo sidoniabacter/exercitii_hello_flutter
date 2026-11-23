@@ -27,6 +27,9 @@ const List<({String text, Color color, String colorReason})> builtInJokes = [
     color: Color(0xFF1E1E2E),
 
     // De ce se potrivește culoarea cu gluma.
+
+    // 2)Provoacă o eroare. Șterge câmpul colorReason din gluma ta și citește mesajul analizorului. Ce spune? Pune câmpul la loc.
+    // mesajul analizorului spune că lipsește câmpul colorReason, care este necesar pentru a respecta tipul recordului. Trebuie să adaugi câmpul colorReason înapoi în gluma ta.
     colorReason: 'A near-black editor background: dark mode itself.',
   ),
   (
