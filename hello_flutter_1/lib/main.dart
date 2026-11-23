@@ -62,7 +62,12 @@ void main() {
           ),
 
           // padding: spațiul dintre marginea casetei și conținut, 20 de pixeli pe fiecare latură.
-          padding: const EdgeInsets.all(20),
+
+          // 7)Schimbă spațiul interior. Înlocuiește EdgeInsets.all(20) cu EdgeInsets.symmetric(horizontal: 60, vertical: 10). Ce s-a schimbat?
+          // Spațiul interior a devenit mai mare pe orizontală (stânga și dreapta) și mai mic pe verticală (sus și jos).
+
+          // padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.symmetric(horizontal: 60, vertical: 10),
 
           // Text afișează un șir de caractere pe ecran.
           child: const Text(
