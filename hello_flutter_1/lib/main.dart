@@ -16,7 +16,14 @@ void main() {
       color: Colors.green,
       // child este widget-ul aflat în interiorul altui widget.
       // Center așază child-ul în mijlocul spațiului disponibil.
-      child: Center(
+
+      // child: Center(
+
+      // 8)Mută caseta. Înlocuiește Center cu Align și adaugă parametrul alignment: Alignment.topCenter. Încearcă și Alignment.bottomRight.
+      child: Align(
+        //alignment: Alignment.topCenter,
+        alignment: Alignment.bottomRight,
+
         // Container este un fel de <div> din HTML: o casetă cu decorație, padding și un child.
         child: Container(
           // BoxDecoration descrie cum arată caseta.
