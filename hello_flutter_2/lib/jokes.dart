@@ -539,4 +539,24 @@ const List<({String text, Color color, String colorReason})> builtInJokes = [
     color: Color(0xFFE34234),
     colorReason: 'The red used to circle dates on a calendar.',
   ),
+
+  // 3)Adaugă o temă nouă. Scrie un comentariu cu numele temei (de exemplu, // Sport) și adaugă sub el două-trei glume. Rulează flutter test: testul trece în continuare? De ce?
+  // Testul trece în continuare pentru că nu am modificat glumele existente, ci doar am adăugat altele noi. Testul verifică doar prezența unei glume specifice, nu contează câte glume sunt în total.
+
+  //Animale
+  (
+    text: 'Why did the chicken join a band? Because it had the drumsticks.',
+    color: Color(0xFFFFD700),
+    colorReason: 'Golden yellow, like a chicken and its drumsticks.',
+  ),
+  (
+    text: 'What do you call a sleeping bull? A bulldozer.',
+    color: Color(0xFF8B0000),
+    colorReason: 'Dark red, like a bull and its strength.',
+  ),
+  (
+    text: 'Why did the cat sit on the computer? To keep an eye on the mouse.',
+    color: Color(0xFF808080),
+    colorReason: 'Gray, like a typical house cat.',
+  ),
 ];
