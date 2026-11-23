@@ -85,6 +85,7 @@ void main() {
             'Bacter Sidonia - Salomeea',
 
             // Fără MaterialApp, trebuie să spunem noi direcția textului: de la stânga la dreapta.
+            // 9) Provoacă o eroare. Șterge rândul cu textDirection, salvează și pornește aplicația din nou. Citește mesajul de eroare: Flutter îți spune ce lipsește. Apoi pune rândul la loc.
             textDirection: TextDirection.ltr,
 
             // TextStyle stabilește cum arată textul.
