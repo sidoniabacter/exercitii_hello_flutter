@@ -59,7 +59,12 @@ void main() {
                 // TextStyle stabilește cum arată textul.
                 style: const TextStyle(
                   // Mărimea literelor, în pixeli.
-                  fontSize: 60,
+
+                  //4) Potrivește mărimea textului. Pornește aplicația pe telefon și apasă hot restart până dai de o glumă lungă. Încape textul pe ecran? Schimbă fontSize: 60 până când și glumele lungi încap.
+                  // Dacă textul e prea mare, se va tăia la marginea casetei și nu va fi vizibil complet. Alege o mărime mai mică, ca să încapă și glumele lungi.
+
+                  //fontSize: 60,
+                  fontSize: 30,
                 ),
               ),
 
