@@ -6,11 +6,11 @@ import 'package:hello_flutter_1/main.dart' as app;
 
 /// Rulează testele aplicației.
 void main() {
-  testWidgets('Afișează textul World Hello', (WidgetTester tester) async {
+  testWidgets('Afișează textul Bacter Sidonia - Salomeea', (WidgetTester tester) async {
     // Pornește aplicația și desenează primul cadru.
     app.main();
     await tester.pump();
 
-    expect(find.text('World Hello'), findsOneWidget);
+    expect(find.text('Bacter Sidonia - Salomeea'), findsOneWidget);
   });
 }

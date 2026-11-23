@@ -113,3 +113,6 @@ void main() {
     ),
   );
 }
+
+// 10) Rulează testul. După ce schimbi textul de la exercițiul 1, rulează flutter test. De ce nu mai trece testul? Ce trebuie schimbat în test/widget_test.dart ca să treacă din nou?
+// Testul nu mai trece pentru că textul afișat în aplicație s-a schimbat. Trebuie să actualizezi așteptarea testului în test/widget_test.dart pentru a reflecta noul text afișat.
