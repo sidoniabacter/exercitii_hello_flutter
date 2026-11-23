@@ -22,15 +22,19 @@ void main() {
           // BoxDecoration descrie cum arată caseta.
           decoration: BoxDecoration(
             // Culoarea casetei: roșu cu opacitate 20%, prin care se vede fundalul galben.
-            // Schimbă transparența casetei. Modifică alpha: 0.2 la 0.6, apoi la 1. Ce se întâmplă cu culoarea casetei?
+            // 3) Schimbă transparența casetei. Modifică alpha: 0.2 la 0.6, apoi la 1. Ce se întâmplă cu culoarea casetei?
             // culoarea casetei devine mai opacă pe măsură ce crește valoarea alpha, iar la 1 devine complet opacă și nu se mai vede fundalul.
 
             // color: Colors.redAccent.withValues(alpha: 0.2),
             // color: Colors.redAccent.withValues(alpha: 0.6),
-             color: Colors.redAccent.withValues(alpha: 1.0),
+            color: Colors.redAccent.withValues(alpha: 1.0),
 
             // Colțuri rotunjite, cu raza de 20 de pixeli.
-            borderRadius: BorderRadius.circular(20),
+            // 4)Fă colțurile rotunde de tot. Mărește raza din BorderRadius.circular(20) la 60, apoi la 200.
+
+            // borderRadius: BorderRadius.circular(20),
+            // borderRadius: BorderRadius.circular(60),
+            borderRadius: BorderRadius.circular(200),
 
             // Bordura: o linie roșie subțire în jurul casetei.
             border: Border.all(color: Colors.red.withValues(alpha: 0.3), width: 1.5),
