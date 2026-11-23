@@ -22,7 +22,12 @@ void main() {
           // BoxDecoration descrie cum arată caseta.
           decoration: BoxDecoration(
             // Culoarea casetei: roșu cu opacitate 20%, prin care se vede fundalul galben.
-            color: Colors.redAccent.withValues(alpha: 0.2),
+            // Schimbă transparența casetei. Modifică alpha: 0.2 la 0.6, apoi la 1. Ce se întâmplă cu culoarea casetei?
+            // culoarea casetei devine mai opacă pe măsură ce crește valoarea alpha, iar la 1 devine complet opacă și nu se mai vede fundalul.
+
+            // color: Colors.redAccent.withValues(alpha: 0.2),
+            // color: Colors.redAccent.withValues(alpha: 0.6),
+             color: Colors.redAccent.withValues(alpha: 1.0),
 
             // Colțuri rotunjite, cu raza de 20 de pixeli.
             borderRadius: BorderRadius.circular(20),
@@ -51,6 +56,7 @@ void main() {
           // Text afișează un șir de caractere pe ecran.
           child: const Text(
             // Textul afișat.
+
             // 1) Schimbă textul. Scrie numele tău în loc de 'World Hello'. Ce se întâmplă dacă textul e prea lung pentru ecran?
             // dacă textul e prea lung pentru ecran, se va tăia la marginea casetei și nu va fi vizibil complet.
             'Bacter Sidonia - Salomeea',
